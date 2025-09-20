@@ -90,6 +90,8 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    display: flex;
+    gap: 20px;
 }
 
 /* Estilos de entrada de texto */
@@ -132,6 +134,14 @@ ul {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+    
+}
+
+.name-list {
+    max-height: 100px;
+    overflow-y: auto;
+    width: 100%;
+    text-align: center;
 }
 
 .result-list {
@@ -155,6 +165,8 @@ ul {
 
 .button-draw img {
     margin-right: 40px;
+    width: 24px;
+    height: auto;
 }
 
 .button-draw:hover {

@@ -1,5 +1,4 @@
 let amigos = [];
-let listaDeIdsSorteados = [];
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -19,6 +18,7 @@ function adicionarAmigo(){
         amigos.push(nome);
         console.log(amigos);
         limparCampo("amigo");
+        document.getElementById("resultado").innerHTML = "";
         exibirAmigos();
     }else{
         alert("Por favor, insira um nome válido!");
@@ -51,4 +51,12 @@ function sortearAmigo() {
         resultado.innerHTML = `O amigo sorteado foi: ${amigos[idAmigoSorteado - 1]}`;
         console.log(idAmigoSorteado);
     }
+}
+
+function reset() {
+    amigos = [];
+    exibirTextoNaTela('h1', 'Amigo Secreto');
+    exibirTextoNaTela('h2', 'Digite o nome dos seus amigos:');
+    exibirTextoNaTela('#resultado', '');
+    exibirAmigos();
 }
