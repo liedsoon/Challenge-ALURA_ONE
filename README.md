@@ -41,7 +41,7 @@ Projeto simples em **JavaScript, HTML e CSS** para cadastrar amigos e sortear al
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/amigo-secreto.git
+   git clone https://github.com/liedsoon/Challenge-ALURA_ONE
    ```
 2. Abra o arquivo `index.html` no navegador.
 3. Digite o nome dos amigos no campo de texto e clique em **Adicionar**.
