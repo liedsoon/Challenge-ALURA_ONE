@@ -1,6 +1,13 @@
 # 🎁 Challenge Amigo Secreto - ONE Alura
 
 Projeto simples em **JavaScript, HTML e CSS** para cadastrar amigos e sortear aleatoriamente um nome da lista.  
+
+---
+
+## 🌐 Acesse o Projeto
+
+👉 [Clique aqui para abrir o site](https://liedsoon.github.io/Challenge-ALURA_ONE/)
+
 ---
 
 ## 🚀 Funcionalidades
@@ -22,22 +29,15 @@ Projeto simples em **JavaScript, HTML e CSS** para cadastrar amigos e sortear al
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (ES6+)**
-
----
-
-## 📂 Estrutura do Projeto
-
-```
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+- **JavaScript**
 
 ---
 
 ## ▶️ Como Usar
+
+👉 [Clique aqui para abrir o site](https://liedsoon.github.io/Challenge-ALURA_ONE/)
+
+## 📁 Clone o repositório
 
 1. Clone o repositório:
    ```bash
